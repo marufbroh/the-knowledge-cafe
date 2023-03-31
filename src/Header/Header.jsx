@@ -3,9 +3,9 @@ import React from 'react';
 const Header = () => {
     return (
         <>
-            <div className="navbar bg-base-100 my-12">
+            <div className="navbar bg-base-100 mt-12 mb-6">
                 <div className="flex-1">
-                    <a className="normal-case text-3xl font-bold">Knowledge Cafe With marufbroh</a>
+                    <a className="normal-case text-3xl font-bold">Knowledge Cafe marufbroh</a>
                 </div>
 
                 <div className='flex gap-12'>
