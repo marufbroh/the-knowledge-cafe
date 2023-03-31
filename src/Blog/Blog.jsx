@@ -5,8 +5,8 @@ const Blog = ({ blog }) => {
     return (
         <>
             <div className="card card-compact bg-base-100 shadow-xl my-3">
-                <figure><img className='h-96 w-full' src={img} alt="Shoes" /></figure>
-                <div className="card-body">
+                <figure className='px-10 pt-10'><img className='rounded-xl' src={img} alt="Shoes" /></figure>
+                <div className="card-body my-10">
                     <div className='flex justify-between'>
                         <div className='flex gap-3 items-center'>
                             <label tabIndex={0} className="flex-none btn btn-ghost btn-circle avatar">

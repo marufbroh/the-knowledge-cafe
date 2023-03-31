@@ -8,8 +8,8 @@ const Header = () => {
                     <a className="normal-case text-3xl font-bold">Knowledge Cafe marufbroh</a>
                 </div>
 
-                <div className='flex gap-12'>
-                    <div className='flex gap-3'>
+                <div className='flex flex-col-reverse lg:flex-row lg:gap-12'>
+                    <div className='flex flex-col lg:flex-row gap-3'>
                         <a href="/home">Home</a>
                         <a href="/about">About</a>
                         <a href="/contact">Contact</a>

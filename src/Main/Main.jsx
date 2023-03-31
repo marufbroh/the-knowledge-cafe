@@ -9,12 +9,12 @@ const Main = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
-        <div className='flex my-6 gap-6'>
-            <div className='basis-2/3'>
+        <div className='flex flex-col lg:flex-row my-6 gap-6'>
+            <div className='lg:basis-2/3'>
                 <Blogs blogs={blogs} />
             </div>
-            <div className='basis-1/3'>
-                hello
+            <div className='lg:basis-1/3'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis voluptatum illo tempore reiciendis? Non aspernatur ducimus, ea assumenda enim molestias.
             </div>
         </div>
     );
