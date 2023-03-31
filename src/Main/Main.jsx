@@ -5,7 +5,7 @@ import Bookmark from '../Bookmark/Bookmark';
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
     const [readTime, setReadTime] = useState(0);
-    const [bookmark, setBookmark] = useState([])
+    const [bookmarks, setBookmarks] = useState([])
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -15,18 +15,29 @@ const Main = () => {
     const handleReadTime = (time) => {
         setReadTime(readTime + time)
     }
+
+    const handleBookmark = (bookmark) => {
+        const totalBookmarks = [...bookmarks];
+        totalBookmarks.push(bookmark)
+        setBookmarks(totalBookmarks)
+    }
+
+
     return (
         <div className='flex flex-col lg:flex-row my-6 gap-6'>
             <div className='lg:basis-2/3'>
-                <Blogs blogs={blogs} handleReadTime={handleReadTime} />
+                <Blogs blogs={blogs} handleReadTime={handleReadTime} handleBookmark={handleBookmark} />
             </div>
             <div className='lg:basis-1/3'>
                 <div className='bg-violet-100 border-2 border-violet-500/75 rounded-lg text-center p-5 mb-6'>
                     <h3 className='font-bold text-2xl text-violet-700'>Spent time on read : {readTime} min</h3>
                 </div>
                 <div className='bg-slate-100 p-5 rounded-lg'>
-                    <h3 className='font-bold text-2xl'>Bookmarked Blogs : 8</h3>
-                    <Bookmark />
+                    <h3 className='font-bold text-2xl'>Bookmarked Blogs : {bookmarks.length}</h3>
+                    {/* <Bookmark bookmark={bookmark} /> */}
+                    {
+                        bookmarks.map(bookmark => <Bookmark bookmark={bookmark} key={bookmark.id} />)
+                    }
                 </div>
             </div>
         </div>
