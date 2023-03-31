@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <div className='flex my-6 gap-6'>
             <div className='basis-2/3'>
-                <Blogs />
+                <Blogs blogs={blogs} />
             </div>
             <div className='basis-1/3'>
                 hello

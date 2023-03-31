@@ -4,8 +4,8 @@
     "name": "Mr. Tamim",
     "date": "Mar 14",
     "published_date": 4,
-    "redding_time": 10,
-    "tittle": "How to get your first job as a self-taught programmer",
+    "reading_time": 10,
+    "title": "How to get your first job as a self-taught programmer",
     "img": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1680256965~exp=1680257565~hmac=44ee0ccc6f4a0d31b4be972ef6278369bf06c877a47c9942e7590664ee645e70",
     "author_img": "https://img.freepik.com/free-photo/writer-work-handsome-young-writer-sitting-table-writing-something-his-sketchpad_155003-15684.jpg?size=626&ext=jpg&ga=GA1.1.620606488.1672819819&semt=ais"
   },
@@ -14,8 +14,8 @@
     "name": "Mr. Iqbal",
     "date": "Mar 13",
     "published_date": 5,
-    "redding_time": 15,
-    "tittle": "How to Install TAilwind DAisy-Ui to make project in React+Vite",
+    "reading_time": 15,
+    "title": "How to Install TAilwind DAisy-Ui to make project in React+Vite",
     "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1680257005~exp=1680257605~hmac=da9a787f3ef6aefe78087fd6ba1e890f48083dec4fa26f3cf0c11f3242aa3e67",
     "author_img": "https://img.freepik.com/free-photo/smart-sad-student-with-sheets-paper_155003-4451.jpg?size=626&ext=jpg&ga=GA1.1.620606488.1672819819&semt=ais"
   },
@@ -24,8 +24,8 @@
     "name": "Mr. Maruf",
     "date": "Mar 10",
     "published_date": 8,
-    "redding_time": 7,
-    "tittle": "How to Work dom and Reacyt virtual Dom in background process All in One",
+    "reading_time": 7,
+    "title": "How to Work dom and Reacyt virtual Dom in background process All in One",
     "img": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?w=1380&t=st=1680257041~exp=1680257641~hmac=d5eafc992637cda0fb4c76942775cac72b9466e5a8df8f362ab90600ca6911fe",
     "author_img": "https://img.freepik.com/premium-photo/thoughtful-businessman-working-his-desk_13339-279326.jpg?size=626&ext=jpg&ga=GA1.1.620606488.1672819819&semt=ais"
   },
@@ -34,8 +34,8 @@
     "name": "Mr. Oli",
     "date": "Mar 9",
     "published_date": 9,
-    "redding_time": 20,
-    "tittle": "How to build a unique project to make your CV heavy and get call from interview",
+    "reading_time": 20,
+    "title": "How to build a unique project to make your CV heavy and get call from interview",
     "img": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=1380&t=st=1680257074~exp=1680257674~hmac=7f5cd6fa29b168286b6b19e35c1a77d670684dd5e56cb4bd389f0900a9c7deb0",
     "author_img": "https://img.freepik.com/free-photo/successful-businessman_144627-14042.jpg?size=626&ext=jpg&ga=GA1.1.620606488.1672819819&semt=ais"
   }
