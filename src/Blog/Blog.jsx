@@ -33,7 +33,7 @@ const Blog = ({ blog }) => {
                         <p>#programming</p>
                     </div>
                     <div className="card-actions justify-start">
-                        <a className='underline font-bold text-violet-500' href="">Mark as read</a>
+                        <p className='underline font-bold text-violet-500' href="">Mark as read</p>
                     </div>
                 </div>
             </div>

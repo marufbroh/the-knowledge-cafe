@@ -4,11 +4,11 @@ import Main from './Main/Main';
 
 const App = () => {
   return (
-    <body className='lg:container mx-auto lg:px-4'>
+    <div className='lg:container mx-auto lg:px-4'>
       <Header></Header>
       <hr className='border-2' />
       <Main></Main>
-    </body>
+    </div>
   );
 };
 
