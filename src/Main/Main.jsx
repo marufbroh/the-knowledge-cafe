@@ -14,7 +14,9 @@ const Main = () => {
                 <Blogs blogs={blogs} />
             </div>
             <div className='lg:basis-1/3'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis voluptatum illo tempore reiciendis? Non aspernatur ducimus, ea assumenda enim molestias.
+                <div className='bg-violet-100 border-2 border-violet-500/75 rounded-lg text-center p-5'>
+                    <h3 className='font-bold text-2xl text-violet-700'>Spent time on read : 177 min</h3>
+                </div>
             </div>
         </div>
     );
