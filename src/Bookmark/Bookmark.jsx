@@ -2,8 +2,8 @@ import React from 'react';
 
 const Bookmark = () => {
     return (
-        <div className='bg-white p-3 font-bold text-lg'>
-            hello
+        <div>
+            <h4 className='bg-white rounded-lg p-3 font-semibold text-lg my-5'>Master Microsoft Power Platform and Become an In-Demand!</h4>
         </div>
     );
 };

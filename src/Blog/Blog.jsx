@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleReadTime }) => {
     const { id, name, date, published_date, reading_time, title, img, author_img } = blog;
     return (
         <>
@@ -33,7 +33,7 @@ const Blog = ({ blog }) => {
                         <p>#programming</p>
                     </div>
                     <div className="card-actions justify-start">
-                        <p className='underline font-bold text-violet-500' href="">Mark as read</p>
+                        <button onClick={() => handleReadTime(reading_time)} className='underline font-bold text-violet-500' href="">Mark as read</button>
                     </div>
                 </div>
             </div>

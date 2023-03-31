@@ -3,12 +3,12 @@ import React from 'react';
 const Header = () => {
     return (
         <>
-            <div className="navbar bg-base-100 mt-12 mb-6 flex-col-reverse lg:flex-row">
+            <div className="navbar bg-base-100 mt-6 lg:mt-12 mb-6 flex-col-reverse lg:flex-row">
                 <div className="flex-1">
                     <a className="normal-case text-3xl font-bold">Knowledge Cafe marufbroh</a>
                 </div>
 
-                <div className='flex flex-row-reverse lg:flex-row lg:gap-12'>
+                <div className='flex flex-row-reverse lg:flex-row lg:gap-12 gap-6'>
                     <div className='flex gap-3'>
                         <a href="/home">Home</a>
                         <a href="/about">About</a>
