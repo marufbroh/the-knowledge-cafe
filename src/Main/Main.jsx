@@ -34,9 +34,8 @@ const Main = () => {
                 </div>
                 <div className='bg-slate-100 p-5 rounded-lg'>
                     <h3 className='font-bold text-2xl'>Bookmarked Blogs : {bookmarks.length}</h3>
-                    {/* <Bookmark bookmark={bookmark} /> */}
                     {
-                        bookmarks.map(bookmark => <Bookmark bookmark={bookmark} key={bookmark.id} />)
+                        bookmarks.map((bookmark, index) => <Bookmark bookmark={bookmark} key={index} />)
                     }
                 </div>
             </div>
