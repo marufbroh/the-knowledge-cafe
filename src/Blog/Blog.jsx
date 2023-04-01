@@ -4,8 +4,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Blog = ({ blog, handleReadTime, handleBookmark }) => {
     const { id, name, date, published_date, reading_time, title, img, author_img } = blog;
+
     const notify = () => toast("Already Bookmarked!");
-    const [countNotify, setCountNotify] = useState(0)
+    const [countNotify, setCountNotify] = useState(0);
 
     const handleAlreadyBookmarked = () => {
         setCountNotify(countNotify + 1)
@@ -16,9 +17,8 @@ const Blog = ({ blog, handleReadTime, handleBookmark }) => {
         if (countNotify >= 1) {
             notify()
         }
-    }
+    };
 
-    // console.log(countNotify);
     return (
         <>
             <ToastContainer />
