@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header/Header';
 import Main from './Main/Main';
+import QNA from './QNA/QNA';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header></Header>
       <hr className='border-2' />
       <Main></Main>
+      <QNA />
     </div>
   );
 };
