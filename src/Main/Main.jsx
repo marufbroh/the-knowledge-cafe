@@ -28,7 +28,7 @@ const Main = () => {
             <div className='lg:basis-2/3'>
                 <Blogs blogs={blogs} handleReadTime={handleReadTime} handleBookmark={handleBookmark} />
             </div>
-            <div className='lg:basis-1/3'>
+            <div className='lg:basis-1/3 lg:sticky lg:top-0 h-full'>
                 <div className='bg-violet-100 border-2 border-violet-500/75 rounded-lg text-center p-5 mb-6'>
                     <h3 className='font-bold text-2xl text-violet-700'>Spent time on read : {readTime} min</h3>
                 </div>
